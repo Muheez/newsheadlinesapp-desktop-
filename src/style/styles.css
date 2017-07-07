@@ -100,7 +100,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .4);
     z-index: 5;
 }
 
@@ -116,7 +116,28 @@ a {
 
 .home-view .top-headline .info {
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 50px;
     z-index: 10;
+}
+
+.home-view .top-headline .info .news-header {
+    position: relative;
+    color: white;
+    font-family: "Georgia";
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 26px;
+    width: 72%;
+    line-height: 30px;
+    outline: 1px solid white;
+}
+
+.home-view .top-headline .info .news-desc {
+    position: relative;
+    color: white;
+    width: 60%;
+    line-height: 24px;
+    outline: 1px solid white;
+    margin-bottom: 36px;
 }
