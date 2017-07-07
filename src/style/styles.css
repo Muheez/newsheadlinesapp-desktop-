@@ -30,6 +30,36 @@ a {
     box-sizing: border-box;
 }
 
+.img1 {
+    background: url(http://news.nationalgeographic.com/content/dam/news/2017/07/05/lizard-penis/01-monitor-lizard-penis.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.icon1 {
+    background: url(http://icons.better-idea.org/icon?url=nationalgeographic.com&size=80..120..200) center no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    background: url(http://newsimg.bbc.co.uk/media/images/67165000/jpg/_67165916_67165915.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.icon2 {
+    background: url(http://icons.better-idea.org/icon?url=bbc.com&size=80..120..200) center no-repeat;
+    background-size: cover;
+}
+
+.img3 {
+    background: url(http://www.aljazeera.com/mritems/Images/2017/7/7/53178586dbd04ffc8ea6b73dde61d3c7_18.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.icon3 {
+    background: url(http://icons.better-idea.org/icon?url=aljazeera.com&size=80..120..200) center no-repeat;
+    background-size: cover;
+}
+
 /* Layout Styles */
 
 #tab {
@@ -161,3 +191,76 @@ a {
     float: left;
     top: 6px;
 }
+
+/* headline list */
+
+.headline-list {
+    position: relative;
+    width: 100%;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.headline-list .headline {
+    position: relative;
+    width: 330px;
+    float: left;
+    margin: 20px 0;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.headline-list .headline .headline-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+}
+
+.headline-list .headline .info {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px 12px;
+}
+
+.headline-list .headline .info .title {
+    position: relative;
+    color: #201e1e;
+    font-family: "Georgia";
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.headline-list .headline .info .desc {
+    position: relative;
+    color: #444;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    height: 70px;
+}
+
+.headline-list .headline .info .headline-src {
+    position: relative;
+}
+
+.headline-list .headline .info .headline-src .src-logo {
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+
+.headline-list .headline .info .headline-src .src {
+    position: relative;
+    top: 6px;
+}
+
