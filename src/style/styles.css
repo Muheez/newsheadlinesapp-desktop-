@@ -66,3 +66,8 @@ a {
     padding: 14px 24px 0 24px;
     font-size: 15px;
 }
+
+.tab-list .tab-item.active {
+    position: relative;
+    border-bottom: 2px solid #c83530;
+}
