@@ -6,6 +6,7 @@
 body {
     font-size: 16px;
     line-height: 16px;
+    font-family: "Open Sans";
 }
 
 ul {
@@ -44,4 +45,23 @@ a {
     position: relative;
     top: 48px;
     width: 100%;
+}
+
+/* Main Styles */
+
+.tab-list {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.tab-list .tab-item {
+    position: relative;
+    height: 100%;
+    color: #201e1e;
+    float: left;
+    padding: 12px 24px;
 }
