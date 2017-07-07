@@ -93,6 +93,17 @@ a {
     height: 70vh;
 }
 
+.home-view .top-headline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 5;
+}
+
 .home-view .top-headline .headline-img {
     position: absolute;
     top: 0;
@@ -101,4 +112,52 @@ a {
     height: 100%;
     background: url(http://i2.cdn.cnn.com/cnnnext/dam/assets/150820111300-delta-plane-file-super-tease.jpg) center no-repeat;
     background-size: cover;
+}
+
+.home-view .top-headline .info {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    z-index: 10;
+}
+
+.home-view .top-headline .info .news-header {
+    position: relative;
+    color: white;
+    font-family: "Georgia";
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 26px;
+    width: 72%;
+    line-height: 30px;
+}
+
+.home-view .top-headline .info .news-desc {
+    position: relative;
+    color: white;
+    width: 60%;
+    line-height: 24px;
+    margin-bottom: 36px;
+}
+
+.home-view .top-headline .info .news-src {
+    position: relative;
+    color: white;
+}
+
+.home-view .top-headline .info .news-src .src-logo {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    background: url(http://icons.better-idea.org/icon?url=cnn.com&size=80..120..200) center no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+
+.home-view .top-headline .info .news-src .src {
+    position: relative;
+    float: left;
+    top: 6px;
 }
