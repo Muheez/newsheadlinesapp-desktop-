@@ -39,3 +39,9 @@ a {
     height: 48px;
     z-index: 100;
 }
+
+#views {
+    position: relative;
+    top: 48px;
+    width: 100%;
+}
