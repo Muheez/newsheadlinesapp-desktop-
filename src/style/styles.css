@@ -130,7 +130,6 @@ a {
     font-size: 26px;
     width: 72%;
     line-height: 30px;
-    outline: 1px solid white;
 }
 
 .home-view .top-headline .info .news-desc {
@@ -138,6 +137,27 @@ a {
     color: white;
     width: 60%;
     line-height: 24px;
-    outline: 1px solid white;
     margin-bottom: 36px;
+}
+
+.home-view .top-headline .info .news-src {
+    position: relative;
+    color: white;
+}
+
+.home-view .top-headline .info .news-src .src-logo {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    background: url(http://icons.better-idea.org/icon?url=cnn.com&size=80..120..200) center no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+
+.home-view .top-headline .info .news-src .src {
+    position: relative;
+    float: left;
+    top: 6px;
 }
