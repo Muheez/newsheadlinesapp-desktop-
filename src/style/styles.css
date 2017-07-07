@@ -72,3 +72,9 @@ a {
     position: relative;
     border-bottom: 3px solid #c83530;
 }
+
+.views .view {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
