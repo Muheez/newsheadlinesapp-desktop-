@@ -16,3 +16,26 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* helper classes */
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.boxing {
+    box-sizing: border-box;
+}
+
+/* Layout Styles */
+
+#tab {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    z-index: 100;
+}
